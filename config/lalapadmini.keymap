@@ -199,8 +199,7 @@
 
         SYSTEM_LAYER {
             display-name = "system_layer";
-
-            //sensor-bindings = <&volume_up_down>, <&volume_up_down>;
+            sensor-bindings = <&volume_up_down>, <&volume_up_down>;
 
             bindings = <
 &kp COLON      &kp LS(N7)        &kp LS(N8)        &kp LS(N9)        &kp LS(N0)           &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4
@@ -251,12 +250,12 @@
         };
     };
 
-    conditional_layers {
-        compatible = "zmk,conditional-layers";
+    //conditional_layers {
+        //compatible = "zmk,conditional-layers";
 
-        System_layer {
-            if-layers = <1 2>;
-            then-layer = <3>;
-        };
-    };
+        //System_layer {
+            //if-layers = <1 2>;
+            //then-layer = <3>;
+        //};
+    //};
 };
