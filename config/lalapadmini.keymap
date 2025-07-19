@@ -188,10 +188,10 @@
         TERTIARY_LAYER {
             display-name = "tertiary_layer";
             bindings = <
-&kp EXCLAMATION       &trans  &trans  &trans          &trans           &kp F11  &kp F12  &trans  &trans  &trans
-&kp CARET             &trans  &trans  &trans          &trans           &kp F6   &kp F7   &kp F8  &kp F9  &kp F10
-&mt LEFT_SHIFT TILDE  &trans  &trans  &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp F1   &kp F2   &kp F3  &kp F4  &kp F5
-&trans                &trans          &trans          &trans           &trans   &trans           &trans  &trans
+&kp COLON      &kp LS(N7)        &kp LS(N8)        &kp LS(N9)          &kp RIGHT_PARENTHESIS  &kp F11  &kp F12  &trans  &trans  &trans
+&kp SEMICOLON  &kp LS(N4)        &kp LS(N5)        &kp LS(NUMBER_6)    &trans                 &kp F6   &kp F7   &kp F8  &kp F9  &kp F10
+&kp QUESTION   &kp LS(NUMBER_1)  &kp LS(NUMBER_2)  &kp LS(LEFT_BRACE)  &kp UNDERSCORE         &kp F1   &kp F2   &kp F3  &kp F4  &kp F5
+&trans         &trans                              &trans              &trans                 &trans   &trans           &trans  &trans
             >;
 
             sensor-bindings = <&scroll_left_right>, <&scroll_left_right>;
