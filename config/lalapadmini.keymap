@@ -178,20 +178,20 @@
             sensor-bindings = <&scroll_left_right>, <&scroll_left_right>;
 
             bindings = <
-&kp INTERNATIONAL_3  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_NUMBER_0  &kp SLASH   &kp N7        &kp N8        &kp N9        &kp MINUS
-&kp DOUBLE_QUOTES    &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp BACKSLASH    &kp ASTRK   &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp PLUS
-&kp SQT              &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp UNDERSCORE   &kp N0      &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp EQUAL
-&trans               &trans                            &trans           &trans           &kp DELETE  &trans                      &kp PERIOD    &trans
+&kp NON_US_BACKSLASH  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_NUMBER_0  &kp SLASH   &kp N7        &kp N8        &kp N9        &kp MINUS
+&kp DOUBLE_QUOTES     &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp BACKSLASH    &kp ASTRK   &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp PLUS
+&kp SQT               &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp UNDERSCORE   &kp N0      &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp EQUAL
+&trans                &trans                            &trans           &trans           &kp DELETE  &trans                      &kp PERIOD    &trans
             >;
         };
 
         TERTIARY_LAYER {
             display-name = "tertiary_layer";
             bindings = <
-&kp COLON      &kp LS(N7)        &kp LS(N8)        &kp LS(N9)          &kp RIGHT_PARENTHESIS  &kp F11  &kp F12  &trans  &trans  &trans
-&kp SEMICOLON  &kp LS(N4)        &kp LS(N5)        &kp LS(NUMBER_6)    &trans                 &kp F6   &kp F7   &kp F8  &kp F9  &kp F10
-&kp QUESTION   &kp LS(NUMBER_1)  &kp LS(NUMBER_2)  &kp LS(LEFT_BRACE)  &kp UNDERSCORE         &kp F1   &kp F2   &kp F3  &kp F4  &kp F5
-&trans         &trans                              &trans              &trans                 &trans   &trans           &trans  &trans
+&kp COLON      &kp LS(N7)        &kp LS(N8)        &kp LS(N9)          &kp LS(N0)            &kp F11  &kp F12  &trans  &trans  &trans
+&kp SEMICOLON  &kp LS(N4)        &kp LS(N5)        &kp LS(NUMBER_6)    &kp NON_US_BACKSLASH  &kp F6   &kp F7   &kp F8  &kp F9  &kp F10
+&kp QUESTION   &kp LS(NUMBER_1)  &kp LS(NUMBER_2)  &kp LS(LEFT_BRACE)  &kp UNDERSCORE        &kp F1   &kp F2   &kp F3  &kp F4  &kp F5
+&trans         &trans                              &trans              &trans                &trans   &trans           &trans  &trans
             >;
 
             sensor-bindings = <&scroll_left_right>, <&scroll_left_right>;
