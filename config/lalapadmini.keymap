@@ -202,10 +202,10 @@
             sensor-bindings = <&volume_up_down>, <&volume_up_down>;
 
             bindings = <
-&kp COLON      &kp LS(N7)        &kp LS(N8)        &kp LS(N9)        &kp LS(N0)           &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4
-&kp SEMICOLON  &kp LS(NUMBER_4)  &kp LS(N5)        &kp LS(NUMBER_6)  &kp INTERNATIONAL_3  &trans        &trans        &trans        &trans        &trans
-&kp QUESTION   &kp LS(NUMBER_1)  &kp LS(NUMBER_2)  &kp LS(NUMBER_3)  &kp UNDERSCORE       &trans        &trans        &trans        &trans        &trans
-&trans         &trans                              &trans            &trans               &trans        &trans                      &trans        &trans
+&kp COLON      &kp LS(N7)        &kp LS(N8)        &kp LS(N9)        &kp LS(N0)      &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4
+&kp SEMICOLON  &kp LS(NUMBER_4)  &kp LS(N5)        &kp LS(NUMBER_6)  &kp SLASH       &trans        &trans        &trans        &trans        &trans
+&kp QUESTION   &kp LS(NUMBER_1)  &kp LS(NUMBER_2)  &kp LS(NUMBER_3)  &kp UNDERSCORE  &trans        &trans        &trans        &trans        &trans
+&trans         &trans                              &trans            &trans          &trans        &trans                      &trans        &trans
             >;
         };
 
@@ -251,11 +251,10 @@
     };
 
     //conditional_layers {
-        //compatible = "zmk,conditional-layers";
-
-        //System_layer {
-            //if-layers = <1 2>;
-            //then-layer = <3>;
-        //};
+    //compatible = "zmk,conditional-layers";
+    //System_layer {
+    //if-layers = <1 2>;
+    //then-layer = <3>;
+    //};
     //};
 };
