@@ -121,8 +121,8 @@
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
             flavor = "tap-preferred";
-            tapping-term-ms = <370>;
-            quick-tap-ms = <150>;
+            tapping-term-ms = <350>;
+            quick-tap-ms = <200>;
             require-prior-idle-ms = <0>;
             bindings = <&kp>, <&kp>;
         };
